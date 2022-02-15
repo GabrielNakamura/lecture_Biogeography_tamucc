@@ -1,2 +1,3 @@
-# lecture_Biogeography_tamucc
-Invited lecture for Biogeography class at Tamucc
+# Invited lecture to Biogeography class
+
+The "where's" and "when's" of Biogeographic studies to understand macroecological and local patterns of diversity

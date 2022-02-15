@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Gabriel Nakamura</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Ph.D Ecology" />
+    <meta name="date" content="2022-01-28" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <meta name="description" content="How to Get Your Teaching Materials Online with R Markdown"/>
+    <meta name="generator" content="xaringan and remark.js"/>
+    <meta name="github-repo" content="rstudio-education/sharing-short-notice"/>
+    <meta name="twitter:title" content="Sharing on Short Notice"/>
+    <meta name="twitter:description" content="How to Get Your Teaching Materials Online with R Markdown"/>
+    <meta name="twitter:url" content="https://rstd.io/sharing"/>
+    <meta name="twitter:image" content="https://repository-images.githubusercontent.com/248553842/408a8d80-7363-11ea-96ae-d04b664002df"/>
+    <meta name="twitter:image:alt" content="The first slide features a flying machine"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta property="og:title" content="Sharing on Short Notice"/>
+    <meta property="og:description" content="How to Get Your Teaching Materials Online with R Markdown"/>
+    <meta property="og:url" content="https://rstd.io/sharing"/>
+    <meta property="og:image" content="https://repository-images.githubusercontent.com/248553842/408a8d80-7363-11ea-96ae-d04b664002df"/>
+    <meta property="og:image:alt" content="The first slide features a flying machine"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:locale" content="en_US"/>
+    <link href="libs/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/my-theme.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/my-fonts.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/extra.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+
+layout: true
+
+---
+
+class: title-slide, center, bottom
+
+# Gabriel Nakamura
+
+## Postdoctoral Research Associate (NSF Phyloregion Project)
+
+### Ph.D Ecology
+
+---
+name: clouds
+class: center, middle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+
+
+???
+Thank you everyone for the presence, today is my official presentation for you all, some of you I already know, from the digital world and the scream computer, and now finally we have the opportunity to a in person meeting. Today I will give you a brief presentation of who I am, my research interesets and what I'm gonna do here at Texas A&amp;M for the next three years.
+
+---
+template: clouds
+class: top, left
+
+.pull-left[
+# .big-text[Olá!]
+# .big-text[Hello!]
+]
+
+???
+
+Hello and Ola, thats the way that we say hello in my birth country that is Brazil
+
+
+--
+
+.pull-right[
+
+&lt;img style="border-radius: 50%;" src="https://raw.githubusercontent.com/GabrielNakamura/talk-ufrj/master/images/avatar.png" width="350px" height="280"/&gt;
+  
+  [<i class="fab  fa-github "></i> @GabrielNakamura](https://github.com/GabrielNakamura)  
+  
+  [<i class="fas  fa-door-open "></i> Personal website](https://gabrielnakamura.netlify.app/)
+  
+  [<i class="fab  fa-twitter "></i> @gabrielnakamur4](https://twitter.com/gabrielnakamur4)
+  
+
+]
+
+???
+
+For those who become interested in my work you can find a little bit more in my website and github account, and of course catch me up here at A&amp;M
+
+
+---
+template: clouds
+
+# Who am I?
+
+???
+
+First, a little bit about who I'm outside the walls of university...
+
+---
+class: middle, center
+
+&lt;div class="flex" style="margin: 0 1em;"&gt;
+  &lt;div class="column"&gt;
+    &lt;h3&gt; Homo sapiens &lt;h3&gt;
+    &lt;img src="images/skeleton.png" style="width: 100%;"&gt;
+  &lt;/div&gt;
+  
+???
+
+Generally speaking I'm just a regular person with some interests like
+  
+--
+
+   &lt;div class="column"style="margin: 0 1em;"&gt;
+    &lt;h3&gt; Sports enthusiast &lt;/h3&gt;
+    &lt;img src="images/volleyball.jpg" style="width: 100%;"&gt;
+  &lt;/div&gt;
+  
+
+???
+
+In my free time I like to have physical exercises. I had a scholarship to play volleyball in Brazil during my high school years, and this is the sport that I like to play when I have the opportunity
+
+---
+class: middle, center
+
+&lt;div class="flex" style="margin: 0 1em;"&gt;
+  &lt;div class="column"&gt;
+    &lt;h3&gt; Homo Sapiens &lt;/h3&gt;
+    &lt;img src="images/skeleton.png" style="width: 100%;"&gt;
+  &lt;/div&gt;
+  
+  &lt;div class="column"style="margin: 0 1em;"&gt;
+    &lt;h3&gt; Sports enthusiast &lt;/h3&gt;
+    &lt;img src="images/volleyball.jpg" style=""&gt;
+  &lt;/div&gt;
+  
+
+--
+
+&lt;div class="column"style="margin: 0 1em;"&gt;
+    &lt;h3&gt; Bike &lt;/h3&gt;
+    &lt;img src="images/bike.png" style=""&gt;
+  &lt;/div&gt;
+  
+???
+
+I also enjoy to ride my bike, it's help me to moving around the city and at the same time have some
+exercise. 
+Hope that I can find one here in Corpus soon
+  
+--
+
+&lt;div class="column"style="margin: 0 1em;"&gt;
+    &lt;h3&gt; Music &lt;/h3&gt;
+    &lt;img src="images/guitar.jpg" style=""&gt;
+  &lt;/div&gt;
+
+???
+
+I also like music, specially guitar. Like to play doesn't mean that I know to play, so, I just play for fun, it helps me to clean my mind. Hope that my neighbors understand it.
+
+--
+
+&lt;div class="column"style="margin: 0 1em;"&gt;
+    &lt;h3&gt; Photograph &lt;/h3&gt;
+    &lt;img src="images/photo.png" style=""&gt;
+  &lt;/div&gt;
+
+
+???
+
+I'm also a enthusiast of photographs, whenever I can I grab my camera and go outside to take some photos. I
+used to maintain I page with my photos on Flickr.
+  
+--
+  &lt;div class="column" style="margin: 0 1em;"&gt;
+    &lt;h3&gt; cooking &lt;/h3&gt;
+    &lt;img src="images/cooking.png"  style=""&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+???
+
+At least, I love cooking. Love to prepare and share food with other people, but this not means that I'm 
+a chef. Hope that we could share some foods in the near future. 
+
+---
+class: center
+background-image: url("images/brazil-map.jpeg")
+background-size: contain
+
+???
+
+As I said, I'm from Brazil
+
+---
+class: center
+background-image: url("images/football.jpg")
+background-size: cover
+
+
+???
+
+If I can list things for which Brazil is known abroad, maybe the first thing is the football.
+Most of brazilian people love this game and our national squad had won five times the World Cup.
+
+---
+class: center
+background-image: url("images/nordeste.jpg")
+background-size: cover
+
+???
+
+Brazil is also very known for its nature. Here is one of the beatifull isolated beaches in the northeast 
+of Brazil that I had the luck to be a few years ago.
+
+---
+class: center
+background-image: url("images/canyons.jpg")
+background-size: cover
+
+???
+
+Here just one more landscape that we can find in Brazil, this is in the South part of the country.
+
+---
+class: center
+background-image: url("images/MS-BR.jpeg")
+background-size: contain
+
+???
+
+Specifically from this State, called Mato Grosso do Sul. A very tropical state located at the center of
+Brazil.
+
+---
+class: center
+background-image: url("images/natural-beauty-MS.png")
+background-size: contain
+
+???
+
+That is also known by its exuberant nature, particularly its rivers with crystalline waters. This is one 
+of them that I had the luck to known.
+
+
+---
+
+name: clouds2
+class: center, middle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+???
+
+So, here I finished the nostalgic part of this presentation, and
+now a little bit of my academic background
+
+---
+
+name: clouds
+class: center, middle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## What influences the distribution of biological diversity on earth?
+
+???
+Basically, this is the question that I've trying to answer with my work, in my research career
+
+--
+
+### Reliable description of biodiversity patterns accross space and time
+
+???
+To answer this question I divide my work in two different research lines, that are complementary related with each other, the first one is focus on the development of numerical tools that can provide reliable description of biodiversity patterns accross space and time, focus mainly in patterns that occurs in large spatial and temporal scale,  with special focus on the development of numerical methods that allowed to describe alpha and beta diversity patterns.
+
+--
+
+### Search for the factors that generate these patterns
+
+???
+And complementary I use try to find which factors explain these patterns, focused mainly on processes related to the evolution of organisms like speciation and historical dispersal.
+
+---
+
+## Tools to describe different components of biodiversity (Ph.D)
+
+.pull-left[
+&lt;img src="images/dimensionality.png" width="1156" /&gt;
+]
+
+.footnote[
+Ecography paper [here](https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.04574)
+]
+
+???
+First, to give you some examples of work that I've been developing to describe ecological patterns, during my Ph.D I developed numerical tools to describe a characteristic of biological diversty called dimensionality, basically it helped us to detect which  components of biological diversity are important to measure in order to effectivelly describe biodiversity in a community or metacommunity
+
+--
+
+.center2[
+- Dimensionality concept 
+
+- R package [.green[`Dimensionality`]](https://github.com/GabrielNakamura/Dimensionality_package)
+]
+
+???
+
+Particularly, I developed a tool that allows to identify how to measure biological diversity when the focus is to maximize the amount o information present in ecological assemblages.
+To do this I relied on the dimensionality concept and developed a updated framework to measure it.
+This framework is described in that article and a R package to calculate the metrics are available in this
+package.
+
+---
+
+## Tools to describe different components of biodiversity (Ph.D)
+
+.pull-left[
+&lt;img src="images/phd.png" width="691" /&gt;
+]
+
+.footnote[
+Ecology paper [here](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecy.3122)
+]
+
+--
+
+.center2[
+- Beta diversity metrics that include .green[Phylogenetic, and
+Functional dimensions]
+
+- Also available in R package [.green[`Dimensionality`]](https://github.com/GabrielNakamura/Dimensionality_package)
+]
+
+
+???
+
+Still with the aim to effectively represent biological diversity, another example is this framework that we expand to capture different components of beta diversity. Basically we extent a proposition originally made by Legendre and De Caceres
+in 2010 to accommodate different facets of beta diversity, like phylogenetic and functional in 
+the same framework. This work is available in this paper in Ecology journal and the metrics can be calculated using the same package Dimensionality that I mentioned early.
+
+---
+template: clouds2
+class: middle, center
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## What influence the distribution of biological diversity on earth?
+
+???
+As I said, capture effectively biodiversity patterns is just one 
+step towards the understanding of the causes of biodiversity distribution on earth
+
+--
+
+### From patterns to process: searching for the causes
+
+???
+To fully answer this question we need to explain biodiversity patterns by searching for what generates it
+
+--
+
+#### How historical factors affect the current distribition of biological diversity?
+
+???
+And in the last year this is what I'm trying to do, specifically I'm interested in understand how processes associated with speciation and historical dispersal are responsible to generate the current patterns of
+distribution in biological diversity
+
+---
+
+## Development of Methods in Historical Biogeography - Ongoing
+
+.pull-left[
+&lt;img src="images/Phy_endemism.png" width="90%" /&gt;
+&lt;img src="images/Jetz_age_arrival.png" width="90%" /&gt;
+.footnote[GitHub repo [here](https://github.com/GabrielNakamura/DivB_metrics)]
+
+]
+
+???
+To do so Now I'm developing numerical methods in historical biogeography that disentangle the importance of in situ speciation
+and historical dispersal to generate spatial patterns in Phylogenetic diversity of assemblages
+
+--
+
+.center2[
+- Development of .green[Model-based] Phylogenetic metrics
+
+- Unification Macroecology, Macroevolution and Community Ecology
+]
+
+???
+
+Briefly I started to adapt common metrics used in community ecology, like PD and PE, and merge this metrics with macroevolutionary models, like ancestral area reconstruction, to be able to capture historical process.
+
+For those who want to see more about the technical details, you can access github codes for this project and the package that Im calling, just for now, as Rrodotus.
+
+---
+template: clouds2
+class: middle, center
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Parallel projects (or, research induced side-effects)
+
+???
+Basically what I showed to you summarize my research interestings, but there is some side effects that comes together when I try to answer those big questions,
+Its Like in a trip, the final destination is the aim, but on the way you realize that there is a lot of other nice things that happen in the route, and here are some of these things that I discovered myself enjoying,
+
+---
+class: middle, center
+
+## R packages
+
+&lt;div class="flex" style="margin: 0 1em;"&gt;
+  &lt;div class="column"&gt;
+    &lt;h3&gt; FishPhyloMaker &lt;/h3&gt;
+    &lt;img src="images/Logo_FishPhyloMaker.png" style="width: 100%;"&gt;
+  &lt;/div&gt;
+  
+???
+In my personal trip to find out the answers for those questions I found myself developing some R packages, particularly related to manipulation of phylogenetic information, like 
+FishPhyloMaker, that allows to obtain phylogenetic trees for fish species, check scientific names and calculate Darwinian shortfalls.
+
+--
+
+&lt;div class="column"style="margin: 0 1em;"&gt;
+    &lt;h3&gt; naturaList &lt;/h3&gt;
+    &lt;img src="images/logo_naturaList_2.png" style=""&gt;
+  &lt;/div&gt;
+  
+???
+naturaList, with a series of spatial tools and for occurrence records and check procedures for taxonomic identification
+
+--
+
+&lt;div class="column"style="margin: 0 1em;"&gt;
+    &lt;h3&gt; mcfly &lt;/h3&gt;
+    &lt;img src="images/mcfly.png" style=""&gt;
+  &lt;/div&gt;
+
+
+???
+And mcfly, that contains a set of tools to model the effects of selection in species diversity in metacommunities
+
+---
+template: clouds2
+class: middle, center
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+# Now in TAMUCC...
+
+---
+
+class: middle, center
+
+## Development of biogeographical methods
+
+&lt;div class="flex" style="margin: 0 1em;"&gt;
+  &lt;div class="column"&gt;
+    &lt;h3&gt; Phyloregion &lt;/h3&gt;
+    &lt;img src="images/logo.png" style="width: 100%;"&gt;
+  &lt;/div&gt;
+  
+???
+So, now my aim here is to improve the tools presented in phyloregion package, and also keep on thing on questions related to the influence of evolutionary processes in diversity patterns of ecological communities
+
+--
+
+&lt;div class="column"style="margin: 0 1em;"&gt;
+    &lt;h3&gt; teaching &lt;/h3&gt;
+    &lt;img src="images/graduation.png" style=""&gt;
+  &lt;/div&gt;
+  
+???
+but also, as far as I can, I want to help undergrad and graduate students, I like to share and help whenever I can, I believe that 
+we always have things to learn from other in the teaching proccess 
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "solarized-light",
+"highlightLanguage": ["r", "css", "yaml"],
+"slideNumberFormat": "",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
