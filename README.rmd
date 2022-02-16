@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Invited lecture to Biogeography class
+# Invited lecture in Biogeography class
 
 ## The "where's" and "when's" of Biogeographic studies to understand macroecological and local patterns of diversity
 

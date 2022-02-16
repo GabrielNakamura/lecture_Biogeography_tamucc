@@ -1,5 +1,5 @@
 ---
-title: "The 'where's' and 'when's' of Biogeographic studies to understand macroecological and local patterns of diversity"
+title: "The 'where's' and 'when's' of Biogeographic studies to understand macroecological and local patterns of diversity - the example of endemism patterns"
 subtitle: "Or.. "
 author: Dr. Gabriel Nakamura (Postdoctoral Research Associate - Daru Lab - Texas A&M University Corpus Christi)
 date: "`r Sys.Date()`"
@@ -64,7 +64,7 @@ meta() %>%
 ```
 
 ???
-Thank you everyone for the presence, today is my official presentation for you all, some of you I already know, from the digital world and the scream computer, and now finally we have the opportunity to a in person meeting. Today I will give you a brief presentation of who I am, my research interesets and what I'm gonna do here at Texas A&M for the next three years.
+Thank you everyone for the presence, today is my official presentation to you all, some of you I already know, from the digital world and the scream computer, and now finally we have the opportunity to a in person meeting. Today I will give you a brief presentation of who I am, my research interesets and what I'm gonna do here at Texas A&M for the next three years.
 
 ---
 template: clouds
