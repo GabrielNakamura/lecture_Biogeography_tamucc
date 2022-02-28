@@ -69,10 +69,11 @@ Thank you everyone for the presence.
 ---
 template: clouds
 
+## Photograph albums
 
 ???
 
-First, a little bit about who I'm outside the walls of university...
+Photographs are a interesting thing since we can get some information based only on a very tiny time-slice
 
 ---
 
@@ -81,19 +82,110 @@ class: center, middle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
-## What influences the distribution of biological diversity on earth?
-
-???
-Basically, this is the question that I've trying to answer with my work, in my research career
+## For example..
 
 --
 
-### Reliable description of biodiversity patterns accross space and time
+```{r echo=FALSE, out.width="38%", fig.alt= "A image of a photo frame with a photo of a..."}
+ knitr::include_graphics("images/photo_frame.png")
+```
 
 ???
-To answer this question I divide my work in two different research lines, that are complementary related with each other, the first one is focus on the development of numerical tools that can provide reliable description of biodiversity patterns accross space and time, focus mainly in patterns that occurs in large spatial and temporal scale,  with special focus on the development of numerical methods that allowed to describe alpha and beta diversity patterns.
+For example, take a look of this picture, what we can conclude from this scene is very straightforward
+
+---
+
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Not everything is what it seems...
+
+```{r echo=FALSE, out.width="38%", fig.alt= "A image of a photo frame with a photo with a revelation..."}
+ knitr::include_graphics("images/photo_frame.png")
+```
+
+???
+Not everything is what seems by just looking at a small piece of time-slice, sometimes, to understand 
+the what lead to a given situation we need to go back to the past to understand the current events we are facing
+
+---
+
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Looking at the past to understand the present....
+
+
+```{r echo=FALSE, out.width="50%", fig.alt= "A black and white family album."}
+ knitr::include_graphics("images/photo-album.jpeg")
+```
+
+
+???
+Sometimes, to understand the present we need to revisit the past, it is not enough to look at only current photographs. Like a family album, when we look at past photos we can better understand the context of the most recent photographs
+
+
+---
+
+## Understanding the history of life on Earth
+
+.pull-left[
+
+```{r echo=FALSE, out.width="100%", fig.alt= "A painting illustrating some representants of Cambrian period"}
+ knitr::include_graphics("images/burgess-shale.jpeg")
+```
+
+]
 
 --
+
+.pull-right[
+
+```{r echo=FALSE, out.width="100%", fig.alt= "A painting illustrating some invertebrate marine species found currently"}
+ knitr::include_graphics("images/marine_invertebrate.jpg")
+```
+
+]
+
+???
+The same rationale can be extended to understand the distribution of life on earth, when we are trying to explain 
+the factors influencing biodiversity patterns we currently saw we can not just rely on current factors, like current 
+climate conditions. Why?
+
+---
+
+## Historical events matters
+
+.pull-left[
+- Historical dispersal
+
+- Speciation events (in-situ speciation)
+
+- Evolutionary Events
+]
+
+.pull-right[
+
+```{r echo=FALSE, out.width="60%", fig.alt= "A painting illustrating past dispersal routes for human population" }
+knitr::include_graphics("images/dispersal_homo.jpeg")
+```
+
+```{r echo=FALSE, out.width="60%", fig.alt= "A painting illustrating Darwin's finches" }
+knitr::include_graphics("images/in_situ_events.jpeg")
+```
+
+.footnote[[Image credits here](https://github.com/GabrielNakamura/DivB_metrics)]
+]
+
+???
+For example, we cannot explain the patterns of human-occupation if we do not consider the dispersal routes made by 
+ancestral populations
+
+---
 
 ### Search for the factors that generate these patterns
 
