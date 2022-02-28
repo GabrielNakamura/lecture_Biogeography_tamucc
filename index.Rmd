@@ -1,5 +1,5 @@
 ---
-title: "The 'where's' and 'when's' of Biogeographic studies to understand macroecological and local patterns of diversity - the example of endemism patterns"
+title: "Bridging the gap among community phylogenetics, biogeography and macroevolution: moving from patterns to process"
 subtitle: "Or.. "
 author: Dr. Gabriel Nakamura (Postdoctoral Research Associate - Daru Lab - Texas A&M University Corpus Christi)
 date: "`r Sys.Date()`"
@@ -49,15 +49,15 @@ background-size: cover
 library(metathis)
 meta() %>%
   meta_general(
-    description = "How to Get Your Teaching Materials Online with R Markdown",
+    description = "Invited lecture in Biogeography class at TAMUCC",
     generator = "xaringan and remark.js"
   ) %>% 
-  meta_name("github-repo" = "rstudio-education/sharing-short-notice") %>% 
+  meta_name("github-repo" = "GabrielNakamura/lecture_Biogeography_tamucc") %>% 
   meta_social(
-    title = "Sharing on Short Notice",
-    url = "https://rstd.io/sharing",
-    image = "https://repository-images.githubusercontent.com/248553842/408a8d80-7363-11ea-96ae-d04b664002df",
-    image_alt = "The first slide features a flying machine",
+    title = "Bridging the gap among community phylogenetics, biogeography and macroevolution",
+    url = "",
+    image = "",
+    image_alt = "The first slide features...",
     og_type = "website",
     twitter_card_type = "summary_large_image"
   )
@@ -76,8 +76,6 @@ class: top, left
 ]
 
 ???
-
-Hello and Ola, thats the way that we say hello in my birth country that is Brazil
 
 
 --
