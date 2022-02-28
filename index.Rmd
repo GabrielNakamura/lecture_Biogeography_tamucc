@@ -64,209 +64,15 @@ meta() %>%
 ```
 
 ???
-Thank you everyone for the presence, today is my official presentation to you all, some of you I already know, from the digital world and the scream computer, and now finally we have the opportunity to a in person meeting. Today I will give you a brief presentation of who I am, my research interesets and what I'm gonna do here at Texas A&M for the next three years.
-
----
-template: clouds
-class: top, left
-
-.pull-left[
-# .big-text[Olá!]
-# .big-text[Hello!]
-]
-
-???
-
-
---
-
-.pull-right[
-
-<img style="border-radius: 50%;" src="https://raw.githubusercontent.com/GabrielNakamura/talk-ufrj/master/images/avatar.png" width="350px" height="280"/>
-  
-  [`r icon::fa("github")` @GabrielNakamura](https://github.com/GabrielNakamura)  
-  
-  [`r icon::fa("door-open")` Personal website](https://gabrielnakamura.netlify.app/)
-  
-  [`r icon::fa("twitter")` @gabrielnakamur4](https://twitter.com/gabrielnakamur4)
-  
-
-]
-
-???
-
-For those who become interested in my work you can find a little bit more in my website and github account, and of course catch me up here at A&M
-
+Thank you everyone for the presence.
 
 ---
 template: clouds
 
-# Who am I?
 
 ???
 
 First, a little bit about who I'm outside the walls of university...
-
----
-class: middle, center
-
-<div class="flex" style="margin: 0 1em;">
-  <div class="column">
-    <h3> Homo sapiens <h3>
-    <img src="images/skeleton.png" style="width: 100%;">
-  </div>
-  
-???
-
-Generally speaking I'm just a regular person with some interests like
-  
---
-
-   <div class="column"style="margin: 0 1em;">
-    <h3> Sports enthusiast </h3>
-    <img src="images/volleyball.jpg" style="width: 100%;">
-  </div>
-  
-
-???
-
-In my free time I like to have physical exercises. I had a scholarship to play volleyball in Brazil during my high school years, and this is the sport that I like to play when I have the opportunity
-
----
-class: middle, center
-
-<div class="flex" style="margin: 0 1em;">
-  <div class="column">
-    <h3> Homo Sapiens </h3>
-    <img src="images/skeleton.png" style="width: 100%;">
-  </div>
-  
-  <div class="column"style="margin: 0 1em;">
-    <h3> Sports enthusiast </h3>
-    <img src="images/volleyball.jpg" style="">
-  </div>
-  
-
---
-
-<div class="column"style="margin: 0 1em;">
-    <h3> Bike </h3>
-    <img src="images/bike.png" style="">
-  </div>
-  
-???
-
-I also enjoy to ride my bike, it's help me to moving around the city and at the same time have some
-exercise. 
-Hope that I can find one here in Corpus soon
-  
---
-
-<div class="column"style="margin: 0 1em;">
-    <h3> Music </h3>
-    <img src="images/guitar.jpg" style="">
-  </div>
-
-???
-
-I also like music, specially guitar. Like to play doesn't mean that I know to play, so, I just play for fun, it helps me to clean my mind. Hope that my neighbors understand it.
-
---
-
-<div class="column"style="margin: 0 1em;">
-    <h3> Photograph </h3>
-    <img src="images/photo.png" style="">
-  </div>
-
-
-???
-
-I'm also a enthusiast of photographs, whenever I can I grab my camera and go outside to take some photos. I
-used to maintain I page with my photos on Flickr.
-  
---
-  <div class="column" style="margin: 0 1em;">
-    <h3> cooking </h3>
-    <img src="images/cooking.png"  style="">
-  </div>
-</div>
-
-???
-
-At least, I love cooking. Love to prepare and share food with other people, but this not means that I'm 
-a chef. Hope that we could share some foods in the near future. 
-
----
-class: center
-background-image: url("images/brazil-map.jpeg")
-background-size: contain
-
-???
-
-As I said, I'm from Brazil
-
----
-class: center
-background-image: url("images/football.jpg")
-background-size: cover
-
-
-???
-
-If I can list things for which Brazil is known abroad, maybe the first thing is the football.
-Most of brazilian people love this game and our national squad had won five times the World Cup.
-
----
-class: center
-background-image: url("images/nordeste.jpg")
-background-size: cover
-
-???
-
-Brazil is also very known for its nature. Here is one of the beatifull isolated beaches in the northeast 
-of Brazil that I had the luck to be a few years ago.
-
----
-class: center
-background-image: url("images/canyons.jpg")
-background-size: cover
-
-???
-
-Here just one more landscape that we can find in Brazil, this is in the South part of the country.
-
----
-class: center
-background-image: url("images/MS-BR.jpeg")
-background-size: contain
-
-???
-
-Specifically from this State, called Mato Grosso do Sul. A very tropical state located at the center of
-Brazil.
-
----
-class: center
-background-image: url("images/natural-beauty-MS.png")
-background-size: contain
-
-???
-
-That is also known by its exuberant nature, particularly its rivers with crystalline waters. This is one 
-of them that I had the luck to known.
-
-
----
-
-name: clouds2
-class: center, middle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-???
-
-So, here I finished the nostalgic part of this presentation, and
-now a little bit of my academic background
 
 ---
 
@@ -294,67 +100,6 @@ To answer this question I divide my work in two different research lines, that a
 ???
 And complementary I use try to find which factors explain these patterns, focused mainly on processes related to the evolution of organisms like speciation and historical dispersal.
 
----
-
-## Tools to describe different components of biodiversity (Ph.D)
-
-.pull-left[
-```{r echo=FALSE}
- knitr::include_graphics("images/dimensionality.png")
-```
-]
-
-.footnote[
-Ecography paper [here](https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.04574)
-]
-
-???
-First, to give you some examples of work that I've been developing to describe ecological patterns, during my Ph.D I developed numerical tools to describe a characteristic of biological diversty called dimensionality, basically it helped us to detect which  components of biological diversity are important to measure in order to effectivelly describe biodiversity in a community or metacommunity
-
---
-
-.center2[
-- Dimensionality concept 
-
-- R package [.green[`Dimensionality`]](https://github.com/GabrielNakamura/Dimensionality_package)
-]
-
-???
-
-Particularly, I developed a tool that allows to identify how to measure biological diversity when the focus is to maximize the amount o information present in ecological assemblages.
-To do this I relied on the dimensionality concept and developed a updated framework to measure it.
-This framework is described in that article and a R package to calculate the metrics are available in this
-package.
-
----
-
-## Tools to describe different components of biodiversity (Ph.D)
-
-.pull-left[
-```{r echo=FALSE}
- knitr::include_graphics("images/phd.png")
-```
-]
-
-.footnote[
-Ecology paper [here](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecy.3122)
-]
-
---
-
-.center2[
-- Beta diversity metrics that include .green[Phylogenetic, and
-Functional dimensions]
-
-- Also available in R package [.green[`Dimensionality`]](https://github.com/GabrielNakamura/Dimensionality_package)
-]
-
-
-???
-
-Still with the aim to effectively represent biological diversity, another example is this framework that we expand to capture different components of beta diversity. Basically we extent a proposition originally made by Legendre and De Caceres
-in 2010 to accommodate different facets of beta diversity, like phylogenetic and functional in 
-the same framework. This work is available in this paper in Ecology journal and the metrics can be calculated using the same package Dimensionality that I mentioned early.
 
 ---
 template: clouds2
@@ -385,13 +130,13 @@ distribution in biological diversity
 
 ---
 
-## Development of Methods in Historical Biogeography - Ongoing
+## Some real-world examples
 
 .pull-left[
-```{r echo=FALSE, out.width="90%"}
+```{r echo=FALSE, out.width="90%", fig.alt= "Map showing America continents with colors indicating values of phylogenetic endemism in a gradient of blue"}
  knitr::include_graphics("images/Phy_endemism.png")
 ```
-```{r echo=FALSE, out.width="90%"}
+```{r echo=FALSE, out.width="90%", fig.alt= "Map showing America continents with colors indicating values of arrival"}
 knitr::include_graphics("images/Jetz_age_arrival.png")
 ```
 .footnote[GitHub repo [here](https://github.com/GabrielNakamura/DivB_metrics)]
@@ -417,84 +162,32 @@ Briefly I started to adapt common metrics used in community ecology, like PD and
 For those who want to see more about the technical details, you can access github codes for this project and the package that Im calling, just for now, as Rrodotus.
 
 ---
-template: clouds2
-class: middle, center
-background-image: url(images/Clouds.jpg)
-background-size: cover
+template: clouds
+class: top, left
 
-## Parallel projects (or, research induced side-effects)
+.pull-left[
+# .big-text[Thank you for your attention!]
+]
 
 ???
-Basically what I showed to you summarize my research interestings, but there is some side effects that comes together when I try to answer those big questions,
-Its Like in a trip, the final destination is the aim, but on the way you realize that there is a lot of other nice things that happen in the route, and here are some of these things that I discovered myself enjoying,
 
----
-class: middle, center
-
-## R packages
-
-<div class="flex" style="margin: 0 1em;">
-  <div class="column">
-    <h3> FishPhyloMaker </h3>
-    <img src="images/Logo_FishPhyloMaker.png" style="width: 100%;">
-  </div>
-  
-???
-In my personal trip to find out the answers for those questions I found myself developing some R packages, particularly related to manipulation of phylogenetic information, like 
-FishPhyloMaker, that allows to obtain phylogenetic trees for fish species, check scientific names and calculate Darwinian shortfalls.
 
 --
 
-<div class="column"style="margin: 0 1em;">
-    <h3> naturaList </h3>
-    <img src="images/logo_naturaList_2.png" style="">
-  </div>
+.pull-right[
+
+<img style="border-radius: 50%;" src="https://raw.githubusercontent.com/GabrielNakamura/talk-ufrj/master/images/avatar.png" width="350px" height="280"/>
   
-???
-naturaList, with a series of spatial tools and for occurrence records and check procedures for taxonomic identification
-
---
-
-<div class="column"style="margin: 0 1em;">
-    <h3> mcfly </h3>
-    <img src="images/mcfly.png" style="">
-  </div>
-
-
-???
-And mcfly, that contains a set of tools to model the effects of selection in species diversity in metacommunities
-
----
-template: clouds2
-class: middle, center
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-# Now in TAMUCC...
-
----
-
-class: middle, center
-
-## Development of biogeographical methods
-
-<div class="flex" style="margin: 0 1em;">
-  <div class="column">
-    <h3> Phyloregion </h3>
-    <img src="images/logo.png" style="width: 100%;">
-  </div>
+  [`r icon::fa("github")` @GabrielNakamura](https://github.com/GabrielNakamura)  
   
-???
-So, now my aim here is to improve the tools presented in phyloregion package, and also keep on thing on questions related to the influence of evolutionary processes in diversity patterns of ecological communities
-
---
-
-<div class="column"style="margin: 0 1em;">
-    <h3> teaching </h3>
-    <img src="images/graduation.png" style="">
-  </div>
+  [`r icon::fa("door-open")` Personal website](https://gabrielnakamura.netlify.app/)
   
+  [`r icon::fa("twitter")` @gabrielnakamur4](https://twitter.com/gabrielnakamur4)
+  
+
+]
+
 ???
-but also, as far as I can, I want to help undergrad and graduate students, I like to share and help whenever I can, I believe that 
-we always have things to learn from other in the teaching proccess 
+
+For those who become interested in my work you can find a little bit more in my website and github account, and of course catch me up here at A&M
 
