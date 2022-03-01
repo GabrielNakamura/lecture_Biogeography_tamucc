@@ -309,43 +309,48 @@ Don't think so...
 ```{r echo=FALSE, out.width="90%", fig.alt= "Map showing America continents with colors indicating values of phylogenetic endemism in a gradient of blue"}
  knitr::include_graphics("images/crouch_broken_premise.png")
 ```
-
 ]
 
 ???
-To do so Now I'm developing numerical methods in historical biogeography that disentangle the importance of in situ speciation
-and historical dispersal to generate spatial patterns in Phylogenetic diversity of assemblages
+An alternative situation can be the following. Looking at the same islands, with the same communities and the same current distribution of species as the previous Figure, but with the difference that we can see the areas in which the ancestors were in the past
+
+---
+## Different scenarios...
+
+.pull-left[
+- **Dispersion** can play an important role
+
+- As well as **in situ diversification**
+
+- Specially if the traits associated with area occupation **are not conserved in phylogeny**
+
+]
 
 --
 
-.center2[
-- Development of .green[Model-based] Phylogenetic metrics
-
-- Unification Macroecology, Macroevolution and Community Ecology
+.pull-right[
+```{r echo=FALSE, out.width="90%", fig.alt= "Map showing America continents with colors indicating values of phylogenetic endemism in a gradient of blue"}
+ knitr::include_graphics("images/crouch_broken_premise.png")
+```
 ]
 
-???
-
-Briefly I started to adapt common metrics used in community ecology, like PD and PE, and merge this metrics with macroevolutionary models, like ancestral area reconstruction, to be able to capture historical process.
-
-For those who want to see more about the technical details, you can access github codes for this project and the package that Im calling, just for now, as Rrodotus.
 
 ---
 template: clouds
 class: top, left
 
 .pull-left[
-# .big-text[Thank you for your attention!]
-]
+.center[
 
-???
-
-
---
-
-.pull-right[
+# Thank you for your attention
 
 <img style="border-radius: 50%;" src="https://raw.githubusercontent.com/GabrielNakamura/talk-ufrj/master/images/avatar.png" width="350px" height="280"/>
+
+]
+
+]
+
+.pull-right[
   
   [`r icon::fa("github")` @GabrielNakamura](https://github.com/GabrielNakamura)  
   
@@ -353,7 +358,6 @@ class: top, left
   
   [`r icon::fa("twitter")` @gabrielnakamur4](https://twitter.com/gabrielnakamur4)
   
-
 ]
 
 ???
