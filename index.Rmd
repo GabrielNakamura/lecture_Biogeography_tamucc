@@ -100,7 +100,7 @@ class: center, midle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
-## Not everything is what it seems...
+## Not everything is what it seems to be...
 
 ```{r echo=FALSE, out.width="38%", fig.alt= "A image of a photo frame with a photo with a revelation..."}
  knitr::include_graphics("images/photo_frame.png")
@@ -139,6 +139,8 @@ Sometimes, to understand the present we need to revisit the past, it is not enou
  knitr::include_graphics("images/burgess-shale.jpeg")
 ```
 
+The deep past provides a complementary vision about evolutionary processes
+
 ]
 
 --
@@ -160,14 +162,25 @@ climate conditions. Why?
 
 ## Historical events matters
 
+.middle[
 .pull-left[
+.center[
+
+**Relevant deep time processess**
 - Historical dispersal
 
 - Speciation events (in-situ speciation)
 
 - Evolutionary Events
+
+- Diversification dynamics
+]
+]
 ]
 
+--
+
+.center[
 .pull-right[
 
 ```{r echo=FALSE, out.width="60%", fig.alt= "A painting illustrating past dispersal routes for human population" }
@@ -180,18 +193,24 @@ knitr::include_graphics("images/in_situ_events.jpeg")
 
 .footnote[[Image credits here](https://github.com/GabrielNakamura/DivB_metrics)]
 ]
+]
 
 ???
-For example, we cannot explain the patterns of human-occupation if we do not consider the dispersal routes made by 
-ancestral populations
+For example, it is difficult to imagine how we explain the current distribution of human populations if we do not consider the processes associated with geographical movements of past populations. The dispersal routes can shed some light on currently patterns
+
+The same is true for in situ speciation events. One of the most known examples, Darwin's finches, speciation events plays an important role in explain the distribution of species in an island complex.
 
 ---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
 
-### Search for the factors that generate these patterns
+## How to consider evolutionary processes and at the same time contemporary process?
 
 ???
-And complementary I use try to find which factors explain these patterns, focused mainly on processes related to the evolution of organisms like speciation and historical dispersal.
-
+So, the question is, how can we consider the evolutionary history acting in different scales, particularly a regional/local
+scale?
 
 ---
 template: clouds2
@@ -199,39 +218,97 @@ class: middle, center
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
-## What influence the distribution of biological diversity on earth?
-
-???
-As I said, capture effectively biodiversity patterns is just one 
-step towards the understanding of the causes of biodiversity distribution on earth
+## Phylogenies + Data in assemblage scale (local/regional)
 
 --
 
-### From patterns to process: searching for the causes
+```{r echo=FALSE, out.width= "80%", fig.alt="Figure from Crouch et al article showing two phylogenetic trees at the top and the 10 species distributed on two different islands" }
+
+knitr::include_graphics("images/crouch_Ecog.png")
+
+```
 
 ???
-To fully answer this question we need to explain biodiversity patterns by searching for what generates it
+To do that we can use the "family album" to take a look at the of lineages, which will represent historical events, coupled with data sampled in a local scale, e.g. community data.
+For example, this is a figure extracted from Crouch et al published in Ecography in 2018. The authors hypothesize that 
+if we analyze the phylogenetic patterns in communities we are gonna be able to make some inferences about the importance of 
+speciation versus dispersal events.
+The authors basically state...
+"greater in situ speciation will create a greater number of shorter branches within a community, where as dispersal will increase the number of long branches in a community as a result of more disparately related species being included"
 
---
+---
+template: clouds2
+class: middle, center
+background-image: url(images/Clouds.jpg)
+background-size: cover
 
-#### How historical factors affect the current distribition of biological diversity?
+## However... Does the phylogenetic information *per se* reveal the past?
+
 
 ???
-And in the last year this is what I'm trying to do, specifically I'm interested in understand how processes associated with speciation and historical dispersal are responsible to generate the current patterns of
-distribution in biological diversity
+By just looking at the current patterns of phylogenetic distribution, is it really possible
+to adequatedly appreciate the role of past events, like in situ speciation and historical dispersal? I.e looking only for the present day patterns, is it possible to understand the past?
 
 ---
 
-## Some real-world examples
+#### Some (not always true) assumptions adopted
+
+.center[
+.pull-left[
+.middle[
+- All present day species were always in the same place (or biome/region)
+
+- The **dispersal is a characteristic that is conserved** along the phylogeny
+
+- The **potential of speciation is always conserved** along the phylogeny
+
+]
+]
+]
+
+???
+If the patterns relative to phylogenetic diversity abovementioned can trully reveal the role of past events those assumptions must be met, resulting in the following pattern.. In other words, the traits associated with speciation processes must be always!!! conserverd
+
+--
+
+.center[
+.pull-right[
+
+```{r echo=FALSE, out.width="90%", fig.alt="A figure showing two phylogenies at the top and two islands at the bottom. Species from phylogeny present a clustered pattern in one island and a overdispersed pattern in another", fig.retina= 3}
+
+knitr::include_graphics("images/modif_crouch_ecog.png")
+
+```
+
+
+]
+]
+
+???
+Illustrating those assumptions, if we could look at the past and see where the ancestors of 
+present day species were, accordingly to the premises this would be the distribution. both in situ and  dispersal would've been conserved along the phylogenetic history of this clade.
+But.... Is that what always happen in nature? Traits associated with the determination of occurrence areas are always conserved in the phylogeny?
+Don't think so...
+
+---
+
+## Different scenarios...
 
 .pull-left[
+- **Dispersion** can play an important role
+
+- As well as **in situ diversification**
+
+- Specially if the traits associated with area occupation **are not conserved in phylogeny**
+
+]
+
+--
+
+.pull-right[
 ```{r echo=FALSE, out.width="90%", fig.alt= "Map showing America continents with colors indicating values of phylogenetic endemism in a gradient of blue"}
- knitr::include_graphics("images/Phy_endemism.png")
+ knitr::include_graphics("images/crouch_broken_premise.png")
 ```
-```{r echo=FALSE, out.width="90%", fig.alt= "Map showing America continents with colors indicating values of arrival"}
-knitr::include_graphics("images/Jetz_age_arrival.png")
-```
-.footnote[GitHub repo [here](https://github.com/GabrielNakamura/DivB_metrics)]
 
 ]
 

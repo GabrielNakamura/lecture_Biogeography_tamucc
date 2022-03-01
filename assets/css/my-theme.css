@@ -12,7 +12,7 @@
 
 .footnote {
 	bottom: 1em;
-	font-size: 60%;
+	font-size: 50%;
 }
 
 img {
@@ -55,12 +55,12 @@ pre code {
 
 /* link color */
 a, a > code {
-  color: #E7553C;
+  color: #6C1AD1;
 }
 
 
 :any-link {
-    color: #E7553C;
+    color: #6C1AD1;
     text-decoration: underline;
 }
 
