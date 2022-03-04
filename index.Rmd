@@ -69,11 +69,11 @@ Thank you everyone for the presence.
 ---
 template: clouds
 
-## Photograph albums
+## Photographs
 
 ???
 
-Photographs are a interesting thing since we can get some information based only on a very tiny time-slice
+Photographs are a interesting thing since we can get some information based only on specific time-slices
 
 ---
 
@@ -100,7 +100,7 @@ class: center, midle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
-## Not everything is what it seems to be...
+## But... not everything is what it seems to be
 
 ```{r echo=FALSE, out.width="38%", fig.alt= "A image of a photo frame with a photo with a revelation..."}
  knitr::include_graphics("images/photo_frame.png")
@@ -126,7 +126,7 @@ background-size: cover
 
 
 ???
-Sometimes, to understand the present we need to revisit the past, it is not enough to look at only current photographs. Like a family album, when we look at past photos we can better understand the context of the most recent photographs
+Sometimes, to understand the present we need to revisit with a little bit more atention the past, since it is not enough to look at only a specific time frame contained in photographs. Like a family album, when we look at past photos we can better understand the context of the most recent photographs
 
 
 ---
@@ -135,28 +135,27 @@ Sometimes, to understand the present we need to revisit the past, it is not enou
 
 .pull-left[
 
-```{r echo=FALSE, out.width="100%", fig.alt= "A painting illustrating some representants of Cambrian period"}
- knitr::include_graphics("images/burgess-shale.jpeg")
-```
+- The deep past provides a **complementary** vision history
 
-The deep past provides a complementary vision about evolutionary processes
+- For example, using **fossils**
+
+- But... fossils are scarce, so we can use **character reconstruction models**
 
 ]
+
 
 --
 
 .pull-right[
 
-```{r echo=FALSE, out.width="100%", fig.alt= "A painting illustrating some invertebrate marine species found currently"}
- knitr::include_graphics("images/marine_invertebrate.jpg")
+```{r echo=FALSE, out.width="100%", fig.alt= "A photo album with figures of species from the Cambrian period, mixed up with present day invertebrate species and Black and white photos of people"}
+ knitr::include_graphics("images/photo_past.png")
 ```
 
 ]
 
 ???
-The same rationale can be extended to understand the distribution of life on earth, when we are trying to explain 
-the factors influencing biodiversity patterns we currently saw we can not just rely on current factors, like current 
-climate conditions. Why?
+Based on fossils we could reconstruct some aspects of ecological factors in the past
 
 ---
 
@@ -174,6 +173,7 @@ climate conditions. Why?
 - Evolutionary Events
 
 - Diversification dynamics
+
 ]
 ]
 ]
@@ -199,6 +199,47 @@ knitr::include_graphics("images/in_situ_events.jpeg")
 For example, it is difficult to imagine how we explain the current distribution of human populations if we do not consider the processes associated with geographical movements of past populations. The dispersal routes can shed some light on currently patterns
 
 The same is true for in situ speciation events. One of the most known examples, Darwin's finches, speciation events plays an important role in explain the distribution of species in an island complex.
+
+---
+## Contemporary events matters too!!
+
+.middle[
+.pull-left[
+.center[
+
+**Relevant deep time processess**
+- Interactions
+
+- Environmental filters
+
+
+]
+]
+]
+
+--
+
+.center[
+.pull-right[
+
+```{r echo=FALSE, out.width="60%", fig.alt= "A painting illustrating past dispersal routes for human population" }
+knitr::include_graphics("images/dispersal_homo.jpeg")
+```
+
+```{r echo=FALSE, out.width="60%", fig.alt= "A painting illustrating Darwin's finches" }
+knitr::include_graphics("images/in_situ_events.jpeg")
+```
+
+.footnote[[Image credits here](https://github.com/GabrielNakamura/DivB_metrics)]
+]
+]
+
+???
+For example, it is difficult to imagine how we explain the current distribution of human populations if we do not consider the processes associated with geographical movements of past populations. The dispersal routes can shed some light on currently patterns
+
+The same is true for in situ speciation events. One of the most known examples, Darwin's finches, speciation events plays an important role in explain the distribution of species in an island complex.
+
+
 
 ---
 name: clouds
