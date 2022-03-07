@@ -448,8 +448,8 @@ Understanding the role of **historical dispersion** and different regions in reg
 Regionalization schemes can also be improved by merging ancestral area reconstruction with current approaches of regionalization
 
 .pull-right[
-```{r echo=FALSE, out.width="100%", fig.alt= "A painting illustrating Darwin's finches" }
-knitr::include_graphics("images/disp.from.png")
+```{r echo=FALSE, fig.alt= "a plate with multiple maps showing the proportion of dispersal of each region" }
+knitr::include_graphics("images/disp_from.png")
 ```
 
 ]
