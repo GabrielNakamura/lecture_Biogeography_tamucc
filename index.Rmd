@@ -429,29 +429,20 @@ knitr::include_graphics("images/highlight_PE_amazon.png")
 ???
 Here we can see that looking at just the traditional metrics we can see that we take the risk to underestimate the role of amazon assemblages in maintain through time the phylogenetic endemism for these bird assemblages. Since Amazon corresponds to a region in which the phylgoeentic endemism is almost all genereted through in-situ speciation
 
-
 ---
+## Application in regionalization schemes
 
-## Further possibilities: Application in regionalization schemes
 
-.midle[
-.center[
 .pull-left[
 
 Understanding the role of **historical dispersion** and different regions in regionalization schemes
 
 ]
-]
-]
-
-???
-Regionalization schemes can also be improved by merging ancestral area reconstruction with current approaches of regionalization
 
 .pull-right[
-```{r echo=FALSE, fig.alt= "a plate with multiple maps showing the proportion of dispersal of each region" }
+```{r echo=FALSE, out.width="100%", out.height="100%", fig.alt= "a plate with multiple maps showing the proportion of dispersal of each region" }
 knitr::include_graphics("images/disp_from.png")
 ```
-
 ]
 
 ???
