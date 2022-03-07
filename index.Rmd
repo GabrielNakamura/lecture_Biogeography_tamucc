@@ -449,6 +449,14 @@ knitr::include_graphics("images/disp_from.png")
 For example, instead of only look at different regions based on a shared evolutionary history we can map the contribution of each region to others, as in this figure. Again, in this scheme we can see how is important the maitenance of amazon assemblages to guarantee the persistence of biodiversity of other regions, since most of the ancestors of present day communities in other regions comes from species originated in amazon.
 
 ---
+## Application in regionalization schemes
+
+```{r echo=FALSE, out.width="90%", fig.alt= "a plate with multiple maps showing the proportion of dispersal of each region" }
+knitr::include_graphics("images/disp_from.png")
+```
+
+
+---
 name: clouds
 class: center, midle
 background-image: url(images/Clouds.jpg)
